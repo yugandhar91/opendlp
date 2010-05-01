@@ -3,7 +3,7 @@
 
 OpenDLP uses Perl-compatible regular expressions (PCREs) to find data residing on systems. This page is intended for everybody to contribute new regular expressions so they can eventually be integrated with each new release of OpenDLP. Leave a comment (or email me) and I will integrate them into the default list.
 
-OpenDLP's regular expression feature does not require backslash "\" characters to be escaped.  However, if you import them directly into MySQL, you must escape the backslash characters.  The regular expressions here do not contain escaped backslash characters.
+If you use the regular expression web interface of OpenDLP, you should not escape backslash "\" characters.  However, if you import them directly into MySQL, you must escape the backslash characters.  The regular expressions here do not contain escaped backslash characters.
 
 For more information on PCREs, reference Wikipedia's entry at http://en.wikipedia.org/wiki/PCRE
 
