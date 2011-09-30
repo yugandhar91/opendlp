@@ -1,5 +1,4 @@
   # I am trying to scan a Windows system that is not part of a Windows domain, but the scan doesn't start. What gives?
   * By default, Windows XP and newer do not allow you to automatically mount the "C$" share if the system is not part of a Windows domain.
-  * For Windows Visa and 7, follow this guide:
-  * http://www.howtogeek.com/howto/windows-vista/enable-mapping-to-hostnamec-share-on-windows-vista/
+  * For Windows Visa and 7, follow this guide: http://www.howtogeek.com/howto/windows-vista/enable-mapping-to-hostnamec-share-on-windows-vista/
   * For Windows XP, disable "Simple File Sharing" by doing this: Start "explorer.exe" -> Go to menu option "Tools" then "Folder Options" -> Go to tab "View" -> Uncheck "Simple File Sharing" (toward the bottom)
