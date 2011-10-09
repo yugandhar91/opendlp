@@ -4,10 +4,11 @@
   * For Windows XP, disable "Simple File Sharing" by doing this: Start "explorer.exe" -> Go to menu option "Tools" then "Folder Options" -> Go to tab "View" -> Uncheck "Simple File Sharing" (toward the bottom)
 
 
-===I can launch an agent scan of a Windows system, but I do not seem to get results. In the OpenDLP web application, it says it has been deploying the agent for the last hour. What is wrong?===
+===I can launch an agent scan of a Windows system, but I do not seem to get results. In the OpenDLP web application, it says it has been deploying the agent for the last hour. In the scan results, it says "-1: Deploying". What is wrong?===
   * Ensure you are not running a firewall on the system using the OpenDLP web server.
   * If you are using the OpenDLP VirtualBox VM, ensure the host operating system is not running a firewall.
   * If you are using the OpenDLP VirtualBox VM, ensure its network is in bridged mode and has a real IP address on the real, physical network (not a VirtualBox NAT or Host-Only IP address).
+  * Ensure your profile's "Phone home URL" is correct. If you reboot your system or the OpenDLP VM, its IP address can sometimes change depending on the DHCP server being used on your network. You will want to update your profile with the new IP address.
 
 
 ===When trying to run an agent scan of a Windows system, the files copy to the remote system. However, the service does not start. What is wrong?===
